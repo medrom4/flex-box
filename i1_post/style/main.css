@@ -213,8 +213,7 @@ bady {
 }
 
 .container {
-    display: flex;
-    max-width: 1200px;
+    max-width: 1100px;
     margin: 0 auto;
 }
 
@@ -289,10 +288,6 @@ bady {
     position: absolute;
     bottom: 5%;
     padding: 0 5%;
-    -webkit-transition-property: max-height;
-    -moz-transition-property: max-height;
-    -ms-transition-property: max-height;
-    -o-transition-property: max-height;
     transition-property: max-height;
     transition-duration: 0.4s;
     transition-timing-function: ease-in-out;
@@ -317,12 +312,9 @@ bady {
 
 
 
-
-
-
 @media (max-width: 600px) {
     .card {
-        width: 100px;
+        max-width: 100%;
     }
 }
 
