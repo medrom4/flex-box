@@ -1,0 +1,10 @@
+html {
+    background: #fff;
+    min-height: 100%;
+    font-family: Helvetica;
+}
+
+a {
+    color: #1194c4;
+    text-decoration: none;
+}
